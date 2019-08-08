@@ -1,0 +1,407 @@
+@media screen and (max-width: 408px){
+
+    ul .logo-word{
+      display: flex;
+      height: -10px;
+      margin-left: -12%;
+      margin-top: -1.2%;
+      float: left;
+      background-color: #81aa66;
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      padding: 20px;
+      
+  }
+  ul .logo-word:hover{
+      box-shadow: inset -5px 10px 10px 3px #5e7e49;
+      transition: 0.3s;
+  }
+    ul .logo-item{
+      display: none;
+      position: absolute;
+    }
+    .dropbtn{
+      display: block;
+      position: absolute;
+      margin-left: 85%;
+      margin-top: -1%;
+      
+  
+    }
+    .desk-logo-item-first{
+     display: none;
+    }
+    .desktop-logo-words-first{
+      display: none;
+    }
+    .desktop-logo-words-second{
+      display: none;
+    }
+    .desktop-logo-words-third{
+      display: none;
+    }
+    .logo{
+      max-width: 100%;
+      height: 580px;
+      background-image: url(imgMob/logo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-top: -4.5%;
+    }
+    /*надпись портфолио и красная полоска*/
+    .port-word{
+      font-family: 'Source Serif Pro bold';
+      font-weight: 600;
+      text-align: center;
+      margin-top: 10%;
+      font-size: 18px;
+    }
+    .red-line{
+      width: 1px;
+      height: 30px;
+      margin-top: 25%;
+      background-color: red;
+      margin-left: 50%;
+    }
+    /*1 раздел портфолио*/
+    .portfolio-item-first{
+      height: 375px;
+      max-width: 100%;
+      background-image: url(imgMob/first-photo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-top: 10%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    /*подписи под фотографией (применяются ко всем подписям)*/
+    .port-word-first{
+      font-family: 'Source Serif Pro bold';
+      font-size: 12px;
+      margin-top: 110%;
+      position: absolute;
+    }
+    .port-word-second{
+      font-family: 'Source Serif Pro semibold';
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 120%;
+      position: absolute;
+    }
+    /*2 раздел портфолио*/
+    .porfolio-item-second{
+      height: 375px;
+      max-width: 100%;
+      background-image: url(imgMob/second-photo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-top: 45%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    /*3 раздел портфолио*/
+    .portfolio-item-third{
+      height: 375px;
+      max-width: 100%;
+      background-image: url(imgMob/third-photo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-top: 45%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    /*4 раздел портфолио*/
+    .portfolio-item-fourth{
+      height: 375px;
+      max-width: 100%;
+      background-image: url(imgMob/fourth-photo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-top: 45%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    /*раздел с загрузкой*/
+    .download{
+      height: 455px;
+      max-width: 100%;
+      background-image: url(imgMob/download.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-top: 55%;
+    }
+    /*подробности о портфолио*/
+    .donwload-desc-first{
+      font-family: 'Source Serif Pro regular';
+      font-size: 26px;
+      color: #fff;
+      margin-top: 35%;
+      margin-left: 10%;
+      position: absolute;
+    }
+    .download-desc-second{
+      font-family: 'Source Serif Pro regular';
+      font-size: 18px;
+      color: #fff;
+      margin-top: 45%;
+      margin-left: 13%;
+      position: absolute;
+    }
+    /*ссылка на портфолио(пустышка)*/
+    .download-desc-third{
+      font-family: 'Source Serif Pro regular';
+      font-size: 22px;
+      color: #fff;
+      margin-top: 75%;
+      margin-left: 7%;
+      position: absolute;
+      text-transform: none;
+      
+    }
+    /*раздел "Обо мне"*/
+  
+    /*фотография*/
+    .about{
+      height: 375px;
+      max-width: 100%;
+      background-image: url(imgMob/about.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-top: 15%;
+    }
+    /*надпись сверху*/
+    .about-word-first{
+     text-align: center;
+     margin-top: 35%;
+     font-family: 'Source Serif Pro semibold';
+     font-size: 25px;
+    }
+    /*надпись под фото*/
+    .about-word-second{
+      font-family: 'Source Serif Pro semibold';
+      font-size: 15px;
+      margin-top: 105%;
+      position: absolute;
+      color: #393939;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    /*красная линия*/
+    .red-line-about{
+      width: 1px;
+      height: 30px;
+      margin-top: 15%;
+      background-color: red;
+      margin-left: 50%;
+      position: absolute;
+    }
+    
+    /*телефон и email*/
+    .about-email{
+      font-family: 'Source Serif Pro semibold';
+      font-size: 15px;
+      margin-top: 135%;
+      position: absolute;
+      margin-left: 25%;
+    }
+    .about-numb{
+      font-family: 'Source Serif Pro semibold';
+      font-size: 15px;
+      margin-top: 140%;
+      position: absolute;
+      margin-left: 30%;
+    }
+    .about-a{
+      font-family: 'Source Serif Pro regular';
+      font-size: 22px;
+      color: #333333;
+      margin-top: 150%;
+      margin-left: 30%;
+      position: absolute;
+      text-transform: none;
+    }
+    /*раздел стоимости*/
+  
+  
+    /*Фото*/
+    /*работа за 1 неделю*/
+    .cost{
+      height: 375px;
+      max-width: 100%;
+      background-image: url(imgMob/cost.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: 10% 5% 0 5%;
+    }
+    /*красная полоса над "Стоимостью"*/
+    .red-line-cost{
+      width: 1px;
+      height: 30px;
+      margin-top: 80%;
+      background-color: red;
+      margin-left: 50%;
+      position: absolute;
+    }
+    .cost-word-first{
+      text-align: center;
+      margin-top: 95%;
+      font-family: 'Source Serif Pro semibold';
+      font-size: 25px;
+    }
+    .cost-desc-first{
+      font-family: 'Source Serif Pro bold';
+      font-size: 18px;
+      margin-left: 10%;
+      margin-top: 105%;
+      color: #8eb574;
+      font-weight: 600;
+      position: absolute;
+    }
+    .cost-cost-first{
+      font-family: 'Source Serif Pro bold';
+      font-size: 18px;
+      margin-left: 24%;
+      margin-top: 110%;
+      color: #8eb574;
+      position: absolute;
+    }
+    .cost-desc-second{
+      font-family: 'Source Serif Pro regular';
+      font-size: 14px;
+      margin-left: 10%;
+      margin-top: 120%;
+      position: absolute;
+    }
+    /*работа за 1 день*/
+    .cost-second{
+      height: 375px;
+      max-width: 100%;
+      background-image: url(imgMob/cost-second.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: 65% 5% 0 5%;
+    }
+    /*1 час съемки*/
+    .cost-third{
+      height: 375px;
+      max-width: 100%;
+      background-image: url(imgMob/cost-third.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: 65% 5% 0 5%;
+    }
+    .red-line-footer{
+      width: 1px;
+      height: 30px;
+      margin-top: -20%;
+      background-color: red;
+      margin-left: 50%;
+      position: absolute;
+    }
+    .footer-callback{
+      text-align: center;
+      margin-top: 95%;
+      font-family: 'Source Serif Pro semibold';
+      font-size: 25px;
+    }
+    .footer-skype{
+      font-family: 'Source Serif Pro semibold';
+      font-size: 20px;
+      color: #4e4d4e;
+      margin-left: 5%;
+    }
+    .green-slash{
+      color:#8eb574;
+    }
+    .first{
+      display: inline-flex;
+      margin-left: 15%; 
+      height: 30px;
+      width: 30px;
+      background-image: url(imgMob/facebook.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+    .second{
+      display: inline-flex;
+      margin-left: 15%; 
+      height: 30px;
+      width: 30px;
+      background-image: url(imgMob/insta.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+    .third{
+      display: inline-flex;
+      margin-left: 15%; 
+      height: 30px;
+      width: 30px;
+      background-image: url(imgMob/vk.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+    .fourth{
+      display: inline-flex;
+      margin-left: 15%; 
+      
+      height: 30px;
+      width: 30px;
+      background-image: url(imgMob/printerest.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+    .pagination{
+      display: none;
+    }
+    .desk-port-picture{
+      display: none;
+    }
+    .first-sheets{
+      display: none
+    }
+    .five-sheet{
+      display: none;
+    }
+    .seven-sheet, .desktop-red-line, .pagination-second, .desktop-portf-detail,
+     .second-sheet, .desktop-second-red-line, .desktop-about-me, .desktop-about-me-second,
+     .test-first, .pagination-third, .five-sheet, .first-sheet, .eight-sheet
+     , .third-sheet, .desktop-footer-skype, .desktop-green-slash,
+     .desktop-callback, .desktop-fourth-red-line, .desktop-cost-desc-nineth,
+     .desktop-cost-cost-eighth, .desktop-cost-desc-seventh,
+     .desktop-cost-third, .desktop-cost-desc-sixth, .desktop-cost-cost-fifth,
+     .desktop-cost-desc-fourth, .desktop-cost-second, .desktop-cost-desc-second,
+     .desktop-cost-cost-first, .desktop-cost-desc-first,
+      .desktop-cost-first, .desktop-second-gallery, .desktop-cost,
+      .desktop-third-redline, .desktop-fourth-description-aboutme,
+      .firstPhoto, .desktop-third-description-aboutme, .desktop-second-description-aboutme,
+      .desktop-first-description-aboutme, .secondPhoto, .test-first,
+      .desktop-about-me, .desktop-second-red-line, .desktop-portf-detail,
+      .desktop-port-word-eighth, .desktop-port-word-seventh, .desktop-fourth-img,
+      .desktop-port-word-sixth, .desktop-port-word-fifth, .desktop-third-img,
+      .desktop-port-word-fourth, .desktop-port-word-third, .desktop-second-img,
+      .desktop-port-word-second, .desktop-port-word-first, .desktop-first-img,
+      .desk-port-picture, .desktop-red-line, .desktop-logo-words-third,
+      .desktop-logo-words-second, .desktop-logo-words-first,
+      .nineth-sheet, .sixth-sheet, .fourth-sheet, .desktop-social-network, .desktop-fourth-red-line,
+      .desktop-social-facebook, .desktop-social-insta, .desktop-social-vk,
+      .desktop-social-printerest
+      {
+      display: none;
+    }
+  }
+  
