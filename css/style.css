@@ -295,12 +295,12 @@ and (min-width: 858px)
    position: absolute;
  }
  .sixth-sheet{
-   margin-top: 255%;
+   margin-top: -4%;
    margin-left: 12.5%;
    position: absolute;
  }
  .nineth-sheet{
-  margin-top: 250%;
+  margin-top: -7%;
   margin-left: 80.5%;
   position: absolute;
  }
@@ -1052,15 +1052,7 @@ and (min-width: 700px)
     margin-top: 147%;
     margin-left: 10%;
   }
-  .sixth-sheet{
-    margin-top: 270%;
-    position: absolute;
-    
-  }
-  .nineth-sheet{
-    margin-top: 265%;
-    position: absolute;
-  }
+
 }
 @media screen and (max-width: 1650px){
   .desk-port-picture{
